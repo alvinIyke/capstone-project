@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { searchMovies } from '../api/omdbApi';
 
-const Search = () => {
+const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [movies, setMovies] = useState([]);
   const [error, setError] = useState(null);
@@ -40,4 +40,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default SearchBar;
