@@ -1,0 +1,21 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "This is a movie database application built using React, TailwindCSS and TMDB API. This project would help users discover new movies and read reviews. It can also help in providing valuable data for film studies, academic research, or market analysis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinIyke/capstone-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alvinIyke/capstone-project/issues"
+  },
+  "homepage": "https://github.com/alvinIyke/capstone-project#readme"
+}

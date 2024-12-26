@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 
-
+/*Navigation bar*/
 const Nav = ({ toggleDarkMode, darkMode }) => { 
-
   return (
     <nav className={`${darkMode ? 'bg-gray-800' : 'bg-green-600'} border-t-4 border-b-4 ${darkMode ? 'border-gray-700' : 'border-green-700'}`}>
         <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-2">
