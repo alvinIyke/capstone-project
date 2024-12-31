@@ -6,7 +6,7 @@ const MovieDetails = () => {
   const { id } = useParams();
   const [movie, setMovie] = React.useState({});
 
-  React.useEffect(() => {
+  React.useEffect(() => {    /*To fetch my movie details */
     const fetchMovieDetails = async () => {
       try {
         const data = await getMovieDetails(id);

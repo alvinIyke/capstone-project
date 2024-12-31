@@ -1,5 +1,6 @@
 import React from 'react';
 
+/*Header containing webpage title and button for toggling darkMode */
 const Header = ({ toggleDarkMode, darkMode }) => {
   return (
     <header className={`bg-gray-800 ${darkMode ? 'bg-gray-900' : ''} text-white p-4 text-center`}>
